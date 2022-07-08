@@ -1,6 +1,6 @@
 body {
     padding: 0;
-    margin: 0;    
+    margin: 0;
 }
 
 .main-container {
@@ -12,7 +12,7 @@ body {
 
 /* Header Section*/
 
-.menu ul{
+.menu ul {
     margin: 1.5rem 0;
     font-size: 1.3rem;
 }
@@ -23,10 +23,11 @@ body {
     cursor: pointer;
 }
 
-.diamond{
+.diamond {
     padding: 1% 1% 0 5%;
 }
-.diamond img{
+
+.diamond img {
     width: 2.5rem;
     margin-top: -0.42rem;
     margin-right: 3rem;
@@ -42,13 +43,13 @@ body {
     right: 7rem;
     border: solid 2px transparent;
     border-radius: 100rem;
-    background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);  
-    background-origin:  border-box; 
+    background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+    background-origin: border-box;
     background-clip: content-box, border-box;
 }
 
 .home-bar {
-    color: #19d7f8 !important; 
+    color: #19d7f8 !important;
 }
 
 /* Middle-Section */
@@ -59,16 +60,17 @@ body {
     line-height: 2rem;
 }
 
-.image{
+.image {
     z-index: 1;
 }
-.middle-container h1{
+
+.middle-container h1 {
     color: white;
     font-size: 3.2rem;
     width: 100rem;
 }
 
-.middle-container p{
+.middle-container p {
     color: #888484;
     font-size: 1.1rem;
     width: 32rem;
@@ -98,8 +100,8 @@ body {
     right: 7rem;
     border: solid 2px transparent;
     border-radius: 50%;
-    background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);  
-    background-origin:  border-box; 
+    background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+    background-origin: border-box;
     background-clip: content-box, border-box;
 }
 
@@ -158,7 +160,7 @@ body {
     cursor: pointer;
 }
 
-.bottom-container-right img{
+.bottom-container-right img {
     height: 20px;
 }
 
@@ -167,24 +169,57 @@ body {
 
 @media (max-width: 992px) {
 
-    body{
-        background-color: #42455a;
-        height: auto;
+    body {
+        background-color: #42455a !important;
     }
-    .menu ul{
+
+    .image {
         text-align: center;
     }
 
-    .signup-btn {
-        position: unset;
+    .image h1 {
+        width: auto;
+    }
+
+    .image p {
+        width: auto;
     }
 
     .img-container {
+        text-align: center;
         position: static;
+        padding-bottom: 10%;
+    }
+
+    .img-container img{
+        width: 100%;
+    }
+
+    .play-middle-container {
+        display: block;
     }
 
     .bottom-container {
         position: static;
+        width: 100%;
     }
- 
+
+    .bottom-container-right {
+        position: static;
+        text-align: center;
+        margin-top: 10rem;
+    }
+
+    .bottom-container-right li {
+        display: inline-block;
+    }
+
+.menu ul {
+    text-align: center;
+}
+
+.signup-btn {
+    position: unset;
+}
+
 }
