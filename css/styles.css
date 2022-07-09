@@ -244,7 +244,7 @@ body {
 }
 
 
-@media (max-width: 780px) {
+@media (max-width: 520px) {
 
     .bottom-container {
         font-size: 0.6rem;
