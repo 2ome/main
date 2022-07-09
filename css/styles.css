@@ -230,6 +230,7 @@ body {
 
     .bottom-container {
         font-size: 0.8rem;
+        width: 100%;
     }
 
     .bottom-container li {
@@ -247,7 +248,8 @@ body {
 @media (max-width: 520px) {
 
     .bottom-container {
-        font-size: 0.6rem;
+        font-size: 0.65rem;
+        width: 100%;
     }
 
     .bottom-container li {
@@ -256,8 +258,8 @@ body {
     }
 
     .bottom-container img {
-        width: 1.5rem ;
-        height: 1.5rem ;
+        width: 1.6rem ;
+        height: 1.6rem ;
         margin-bottom: 20%;
     }
 }
