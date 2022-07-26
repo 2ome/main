@@ -65,13 +65,23 @@ function correctAnswer(currentLevel) {
     if (gamePattern[currentLevel] === userClickPattern[currentLevel]) {
         console.log("succsess");
 
-        if (gamePattern.length === userClickPattern.length) {
-            itsTurn = false;
+         if (gamePattern.length === userClickPattern.length) {
             setTimeout(function () {
                 disableClickOnSimon();
                 nextSequence();
 
             }, 1000);
+        }
+        else if (gamePattern.length < userClickPattern.length) {
+            playSound("wrong");
+
+            $("body").addClass("game-over");
+            setTimeout(function () {
+                $("body").removeClass("game-over");
+            }, 200);
+            $("h1").html("Game Over, Click <u>here</u> to Restart");
+            disableClickOnSimon();
+            gameOver();
         }
     } else {
         playSound("wrong");
