@@ -1,0 +1,111 @@
+body {
+    background-color: #94B49F;
+    text-align: center;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+
+.btn {
+    border-radius: 25px;
+    font-size: 1.5rem;
+    margin: 0.5%;
+    font-family: 'Mouse Memoirs', sans-serif;
+    background-color: #ECB390;
+
+}
+
+.user-input {
+    border-radius: 25px;
+    font-size: 1.5rem;
+    margin: 2%;
+    padding-left: 1.5%;
+    width: 12rem;
+}
+
+
+
+/* Containers */
+
+.master-container {
+    background-color: #CEE5D0;
+    border-radius: 25px;
+    text-align: center;
+    height: auto;
+    width: 60%;
+    margin: 5% auto 5% auto;
+}
+
+.middle-container {
+    margin: 5% auto 5% auto;
+}
+
+.bottom-container {
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+}
+
+/* Texts Sections */
+
+.subject {
+    font-size: 9rem;
+    padding-top: 5%;
+    margin-bottom: 0;
+    color: #f3eed8;
+}
+
+.sub-subject{
+    font-size: 1.5rem;
+}
+
+/* Table List */
+
+
+table {
+    text-align: center;
+    margin: auto auto 2% auto;
+}
+
+
+.left-th{
+    font-size: 3rem;
+    color: #fff9dd;
+    text-align: center;
+
+}
+
+.right-th{
+
+    font-size: 3rem;
+    color: #fff9dd;
+    text-align: center;
+    padding-left: 50px;
+
+}
+
+.left {
+    width: 50%;
+    border-right: #8f8f8f 2px solid;
+    padding-right: 150px;
+}
+
+.right {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.items {
+    font-size: 2.5rem;
+    text-align: left;
+    margin: auto 5% 3% 5%;
+    padding-left: 2rem;
+    color: #fff9dd;
+
+}
+
+
+/* JavaScript */
+.active {
+    text-decoration: line-through;
+    text-decoration-color: #ECB390;
+    
+}
