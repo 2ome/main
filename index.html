@@ -5,70 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>toDo list</title>
+    <title>calculator</title>
 
     <!-- Css -->
     <link rel="stylesheet" href="styles.css">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
 
 
 </head>
 
 <body>
-
-    <div class="master-container">
-        <!-- Head -->
-        <h1 class="subject">My to-do list</h1>
-
-        <!-- User text -->
-        <div class="middle-container">
-            <input type="text" id="userList" class="user-input" required>
-            <input type="button" value="Add" id="addList" class="btn">
-        </div>
-
-        <!-- List -->
-        <table>
-            <tr>
-                <th class="left-th">To-Do</th>
-                <th class="right-th">Completed</th>
-            </tr>
-            <tr>
-                <td class="left">
-                    <div>
-                        <ol id='myList'>
-                        </ol>
-                    </div>
-                </td>
-                <td class="right">
-                    <div>
-                        <ol id='completedList'>
-                        </ol>
-                    </div>
-                </td>
-
-            </tr>
-        </table>
-        
-        <!-- Buttons -->
-        <div>
-            <button class="btn" id="clearCompleted">Clear Completed</button>
-            <button class="btn" id="emptyList">Empty List</button>
-        </div>
-
-        <div class="bottom-container">
-            <h3 class="sub-subject">Double click an Item to mark it as complete</h3>
-        </div>
+    <div id="inputCcontainer">
+        <h1 id="userInput">0</h1>
     </div>
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- javaScript -->
+    <div class="main-container">
+        <div class="numbers-container">
+            <div class="numbers text 1"><br>1</div>
+            <div class="numbers text 2"><br>2</div>
+            <div class="numbers text 3"><br>3</div>
+            <div class="numbers text 4"><br>4</div>
+            <div class="numbers text 5"><br>5</div>
+            <div class="numbers text 6"><br>6</div>
+            <div class="numbers text 7"><br>7</div>
+            <div class="numbers text 8"><br>8</div>
+            <div class="numbers text 9"><br>9</div>
+            <div class="numbers text zero 0"><br>0</div>
+            <div class="numbers text ."><br>.</div>
+            <div class="numbers text ac Escape Backspace" id="clean" ><br>AC</div>
+        </div> 
+        <div class="header-container">
+            <div class="header text plus +">+</div>
+            <div class="header text minus -">-</div>
+            <div class="header text X *">X</div>
+            <div class="header text hiluk ÷ /">÷</div>
+        </div>
+        <div class="equal text = Enter"><br><br><br><br><br>=</div>
+
+
+
+    </div>
+    <!-- Java Script -->
     <script src="index.js"></script>
-
-
 </body>
 
 </html>
